@@ -1,14 +1,14 @@
-package skid.gypsyy.module.modules.misc;
+package dev.lvstrng.module.modules.misc;
 
-import skid.gypsyy.event.EventListener;
-import skid.gypsyy.event.events.TickEvent;
-import skid.gypsyy.mixin.MinecraftClientAccessor;
-import skid.gypsyy.module.Category;
-import skid.gypsyy.module.Module;
-import skid.gypsyy.module.setting.NumberSetting;
-import skid.gypsyy.module.setting.Setting;
-import skid.gypsyy.utils.EncryptedString;
-import skid.gypsyy.utils.InventoryUtil;
+import dev.lvstrng.event.EventListener;
+import dev.lvstrng.event.events.TickEvent;
+import dev.lvstrng.mixin.MinecraftClientAccessor;
+import dev.lvstrng.module.Category;
+import dev.lvstrng.module.Module;
+import dev.lvstrng.module.setting.NumberSetting;
+import dev.lvstrng.module.setting.Setting;
+import dev.lvstrng.utils.EncryptedString;
+import dev.lvstrng.utils.InventoryUtil;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.FoodComponent;
 
