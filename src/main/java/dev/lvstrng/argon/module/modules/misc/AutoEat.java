@@ -1,14 +1,14 @@
-package dev.lvstrng.module.modules.misc;
+package dev.lvstrng.argon.module.modules.misc;
 
-import dev.lvstrng.event.EventListener;
-import dev.lvstrng.event.events.TickEvent;
-import dev.lvstrng.mixin.MinecraftClientAccessor;
-import dev.lvstrng.module.Category;
-import dev.lvstrng.module.Module;
-import dev.lvstrng.module.setting.NumberSetting;
-import dev.lvstrng.module.setting.Setting;
-import dev.lvstrng.utils.EncryptedString;
-import dev.lvstrng.utils.InventoryUtil;
+import dev.lvstrng.argon.event.EventListener;
+import dev.lvstrng.argon.events.TickEvent;
+import dev.lvstrng.argon.MinecraftClientAccessor;
+import dev.lvstrng.argon.module.Category;
+import dev.lvstrng.argon.module.Module;
+import dev.lvstrng.argon.module.setting.NumberSetting;
+import dev.lvstrng.argon.module.setting.Setting;
+import dev.lvstrng.argon.utils.EncryptedString;
+import dev.lvstrng.argon.utils.InventoryUtil;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.FoodComponent;
 
